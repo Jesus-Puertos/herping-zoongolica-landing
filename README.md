@@ -86,9 +86,10 @@ Aquí tienes una guía rápida:
 2. Clona tu [_fork_](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/fork) (`git clone <URL del fork>`)
 3. Añade el repositorio original como remoto (`git remote add upstream <URL del repositorio original>`)
 4. Crea tu Rama de Funcionalidad (`git checkout -b feature/CaracteristicaIncreible`)
-5. Realiza tus Cambios (`git commit -m 'Add: alguna CaracterísticaIncreible'`)
-6. Haz Push a la Rama (`git push origin feature/CaracteristicaIncreible`)
-7. Abre una [_pull request_](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/pulls)
+5. Añade tus cambios (`git add .`)
+6. Realiza tus Cambios (`git commit -m 'Add: alguna CaracterísticaIncreible'`)
+7. Haz Push a la Rama (`git push origin feature/CaracteristicaIncreible`)
+8. Abre una [_pull request_](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/pulls)
 
 Por favor, consulta nuestra [guía de contribución](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/blob/master/CONTRIBUTING.md) para saber cómo puedes empezar de la mejor manera y siguiendo [buenas prácticas](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/blob/main/CONTRIBUTING.md#buenas-prácticas-).
 
