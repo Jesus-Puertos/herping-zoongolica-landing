@@ -1,0 +1,63 @@
+---
+import BurguerIcon from "@/icons/BurguerIcon.astro";
+import SnakeIcon from "@/assets/SnakeIcon.astro";
+---
+
+<div
+  class="m-auto flex size-full max-w-screen-2xl items-center justify-between px-3 py-4 2xl:px-12 sticky top-0 z-50 bg-white/40"
+>
+  <div class="flex items-center justify-start gap-2 min-[375px]:gap-4 lg:gap-0">
+    <button
+      type="button"
+      class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg align-middle font-semibold transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-blue-700 text-blue-600 h-6 min-w-[24px] gap-1.5 text-xs p-0 disabled:stroke-slate-400 disabled:text-slate-400 hover:stroke-blue-950 hover:text-blue-950 lg:hidden"
+      aria-label="Menu"
+    >
+      <span>
+        <BurguerIcon />
+      </span>
+    </button>
+    <span class="text-3xl font-black text-balance">Herping Zoongolica</span>
+  </div>
+  <div class="hidden gap-10 md:flex">
+    <div class="hidden gap-8 lg:flex">
+      <a
+        type="button"
+        href="/feature"
+        class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-black px-2 text-black h-[38px] min-w-[38px] gap-2 cursor-pointer disabled:stroke-slate-400 disabled:text-slate-400 hover:opacity-80"
+      >
+        <span>Inicio</span>
+      </a>
+      <a
+        type="button"
+        href="/about"
+        class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-black px-2 text-black h-[38px] min-w-[38px] gap-2 cursor-pointer disabled:stroke-slate-400 disabled:text-slate-400 hover:opacity-80"
+      >
+        <span>Sobre el proyecto</span>
+      </a>
+      <a
+        type="button"
+        href="/pricing"
+        class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-black px-2 text-black h-[38px] min-w-[38px] gap-2 cursor-pointer disabled:stroke-slate-400 disabled:text-slate-400 hover:opacity-80"
+      >
+        <span>Precios</span>
+      </a>
+      <a
+        type="button"
+        href="/contact"
+        class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed stroke-black px-2 text-black h-[38px] min-w-[38px] gap-2 cursor-pointer disabled:stroke-slate-400 disabled:text-slate-400 hover:opacity-80"
+      >
+        <span>Contacto</span>
+      </a>
+    </div>
+    <a
+      type="button"
+      href="https://zongolica.travel"
+      rel="noopener noreferrer"
+      target="_blank"
+      class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white text-white hover:bg-green-700 hover:scale-105 h-[38px] min-w-[38px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100 px-4"
+    >
+      <span>Zongolica.travel</span>
+      <SnakeIcon class="size-8" />
+    </a>
+  </div>
+</div>

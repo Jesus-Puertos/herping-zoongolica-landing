@@ -1,0 +1,135 @@
+---
+import SnakeIcon from "@/assets/SnakeIcon.astro";
+---
+
+<section
+  class="flex w-full items-start justify-center bg-[url('https://tailframes.com/images/squares-bg.webp')] bg-cover bg-center bg-no-repeat"
+>
+  <div
+    class="m-auto flex max-w-5xl grow flex-col items-center justify-start gap-6 px-3 py-20 md:gap-12 md:px-12 lg:max-w-7xl lg:px-24"
+  >
+    <SnakeIcon class="size-36" />
+    <div class="flex max-w-lg flex-1 flex-col items-center gap-6 text-center">
+      <h1
+        class="text-4xl font-extrabold leading-10 text-black sm:text-5xl md:text-6xl xl:text-7xl text-balance"
+      >
+        <span class="block">Herping Zoongolica</span>
+        <span class="relative inline-block text-black">Muy pronto...</span>
+      </h1>
+
+      <p class="text-xl font-normal leading-7 text-slate-500 text-pretty">
+        Nos complace anunciar un nuevo proyecto de Finca Santa Marta Ecosuits.
+        Estamos profundamente comprometidos con la preservación de la
+        biodiversidad de anfibios y reptiles en la Sierra de Zongolica.
+        Manténganse al tanto, pronto compartiremos más detalles sobre este
+        emocionante proyecto.
+      </p>
+      <form class="flex gap-2">
+        <div
+          class="inline-flex w-full max-w-sm flex-col items-start gap-2 stroke-black transition-colors duration-300 ease-out focus-within:stroke-blue-700"
+        >
+          <div class="relative w-full">
+            <div
+              class="pointer-events-none absolute left-6 top-1/2 w-5 -translate-x-1/2 -translate-y-1/2"
+            >
+              <svg
+                width="21"
+                height="20"
+                viewBox="0 0 21 20"
+                fill="none"
+                stroke="#1D4ED8"
+                xmlns="http://www.w3.org/2000/svg"
+                class="stroke-green-700"
+              >
+                <g clip-path="url(#clip0_4036_225)">
+                  <path
+                    d="M13 8.3335L9.66667 11.6668L14.6667 16.6668L18 3.3335L3 9.16683L6.33333 10.8335L8 15.8335L10.5 12.5002"
+                    stroke-width="1.5"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_4036_225">
+                    <rect
+                      width="20"
+                      height="20"
+                      fill="#16a34a"
+                      transform="translate(0.5)"></rect>
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <input
+              class="w-full rounded-lg border-slate-300 bg-blue-50 px-3 text-sm font-medium placeholder-slate-400 outline-none transition-all duration-300 ease-out focus:border-blue-600 disabled:cursor-not-allowed disabled:bg-slate-50 disabled:text-slate-400 disabled:placeholder-slate-400 py-2.5 pl-10"
+              id="email"
+              placeholder="Suscríbete a nuestro boletín"
+              required=""
+              type="email"
+            />
+          </div>
+        </div>
+        <button
+          type="submit"
+          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white px-6 text-white hover:bg-green-700 h-[42px] min-w-[42px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100 trasition hover:scale-105"
+        >
+          <span>Suscribirse</span>
+        </button>
+      </form>
+    </div>
+    <div class="flex flex-col gap-4 md:flex-row md:gap-0">
+      <div class="flex items-center justify-center -space-x-4">
+        <div
+          class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 border-white shadow-md border-[3px] bg-white z-20"
+        >
+          <img
+            src="/img/devs/jesus-puertos.webp"
+            alt="Jesus Puertos - Desarrollador Web FullStack Foto de Perfil"
+            class="aspect-square"
+          />
+        </div>
+        <div
+          class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 border-white shadow-md border-[3px] bg-white z-10"
+        >
+          <img
+            src="/img/devs/rene-zepahua.webp"
+            alt="Rene Zepahua - Desarrollador Backend Foto de Perfil"
+            class="aspect-square"
+          />
+        </div>
+        <div
+          class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 border-white shadow-md border-[3px] bg-white z-10"
+        >
+          <img
+            src="https://www.tailframes.com/images/avatar.webp"
+            alt=""
+            class="aspect-square"
+          />
+        </div>
+        <div
+          class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 border-white shadow-md border-[3px] bg-white z-10"
+        >
+          <img
+            src="https://www.tailframes.com/images/avatar.webp"
+            alt=""
+            class="aspect-square"
+          />
+        </div>
+      </div>
+      <div
+        class="bg-slate-300 max-h-screen min-h-full border-l m-auto w-8 md:mx-4 md:my-1 md:w-[unset]"
+      >
+      </div>
+      <div class="flex flex-col items-center justify-center md:items-start">
+        <div class="flex gap-2">
+          <div class="flex items-center justify-center gap-0.5">
+            <div class="relative"></div>
+          </div>
+          <p class="text-base font-semibold">Equipo de Herping Zongolica</p>
+        </div>
+        <p class="text-sm text-slate-500">
+          del Instituto Tecnológico Superior de Zongolica
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
