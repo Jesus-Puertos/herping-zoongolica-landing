@@ -1,3 +1,10 @@
+---
+import FacebookIcon from "@/icons/FacebookIcon.astro";
+import InstagramIcon from "@/icons/InstagramIcon.astro";
+import WhatsAppIcon from "@/icons/WhastAppIcon.astro";
+import WebsiteIcon from "@/icons/WebsiteIcon.astro";
+---
+
 <footer
   class="rounded-lg shadow m-4 bg-black/15 backdrop-blur-lg w-full xl:w-[1120px] mx-auto mb-4"
 >
@@ -10,8 +17,35 @@
       >. Todos los derechos reservados.
     </span>
     <!-- Iconos here -->
-    <nav>
-      <a href=""></a>
+    <nav class="flex justify-center items-center gap-4">
+      <a
+        href="https://www.facebook.com/profile.php?id=100083468072351"
+        rel="noopener"
+        target="_blank"
+        class="text-green-600 hover:scale-105 transition-transform duration-300 ease-in-out"
+        ><FacebookIcon /> <span class="hidden">Facebook</span>
+      </a>
+      <a
+        href="https://www.instagram.com/herpingzongolica/"
+        rel="noopener"
+        target="_blank"
+        class="text-green-600 hover:scale-105 transition-transform duration-300 ease-in-out"
+        ><InstagramIcon /> <span class="hidden">Instagram</span></a
+      >
+      <a
+        href="https://wa.me/522721995752"
+        rel="noopener"
+        target="_blank"
+        class="text-green-600 hover:scale-105 transition-transform duration-300 ease-in-out"
+        ><WhatsAppIcon /><span class="hidden">WhatsApp</span></a
+      >
+      <a
+        href="https://www.zongolica.travel/"
+        rel="noopener"
+        target="_blank"
+        class="text-green-600 hover:scale-105 transition-transform duration-300 ease-in-out"
+        ><WebsiteIcon /><span class="hidden">Website Oficial</span></a
+      >
     </nav>
   </div>
 </footer>
