@@ -11,7 +11,7 @@
   <img src="./public/Lgcamptii.png" alt="Logo" width="800" />
 </a>
 
-## Landing Page del CAMPTII V5.0
+## Landing Page del Hearping Zongolica:
 
 CAMPTII V5.0 es un evento de campamento para la ingeniría en sistemas computacionales, a desarrollarse el dia 26 de abril del 2024 en la Unidad Académica de Tequila, Ver. Organizado por el Instituto Tecnologico Superior de Zongolica.\
 [Reportar error](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/issues) · [Sugerir algo](https://github.com/Jesus-Puertos/landing-page-camping-tecnm/issues)
@@ -35,7 +35,7 @@ CAMPTII V5.0 es un evento de campamento para la ingeniría en sistemas computaci
 - **Agregar evento al calendario**: Permite a los usuarios agregar el evento a sus calendarios.
 - **Redes sociales**: Conoce las redes oficiales donde podrás informarte sobre el evento.
 
-### Capturas de pantalla de la web de CAMPTII V5.0:
+### Capturas de pantalla de la web de Hearping Zongolica:
 
 ![Captura de pantalla en móvil](./public/Mobile_README.png)
 ![Captura de pantalla en ordenador](./public/Desktop_README.png)
