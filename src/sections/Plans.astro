@@ -1,14 +1,28 @@
+---
+import CheckIcon from "@/icons/CheckIcon.astro";
+---
+
 <section
   class="m-auto flex w-full max-w-screen-2xl flex-col items-start justify-center gap-12 px-6 py-12 md:px-16 2xl:flex-row 2xl:py-16"
 >
   <div class="flex flex-col gap-3 text-center md:max-w-xs md:text-left">
     <h2 class="text-4xl font-semibold text-slate-950">Conoce los planes</h2>
     <p class="text-sm text-slate-600">Pensados para ti.</p>
+    <img
+      src="/img/ilustration.svg"
+      alt="Ilustracion de personaje en la parte de planes de la aplicacion para escritorio."
+      class="hidden xl:block scale-x-[-1]"
+    />
+    <img
+      src="/img/ilustrationMobile.svg"
+      alt="Ilustracion de personaje en la parte de planes d ela aplicacion para mobile."
+      class="flex justify-center items-center mt-12 md:hidden w-64 h-64 m-auto mb-0"
+    />
   </div>
   <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
     <!-- Basic Pricing Card -->
     <div
-      class="flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 p-6 md:min-h-[520px] md:gap-12 bg-white"
+      class="card flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 p-6 md:min-h-[520px] md:gap-12 bg-white"
     >
       <div class="inline-flex flex-col items-start justify-start gap-6">
         <div class="flex flex-col items-start justify-start gap-4">
@@ -22,92 +36,31 @@
         <div class="flex flex-col gap-6 text-slate-600">
           <div class="flex flex-col items-start justify-start gap-4">
             <!-- Feature Item -->
-            <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+            <div class="inline-flex items-center justify-center gap-3">
+              <CheckIcon />
               <p class="text-sm">
                 Visualización de fotos e información de un número limitado de
                 especies.
               </p>
             </div>
             <!-- Feature Item -->
-            <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+            <div class="inline-flex items-center justify-center gap-3">
+              <CheckIcon />
+
               <p class="text-sm">
                 Subida de fotos de animales por parte de los usuarios
               </p>
             </div>
             <!-- Feature Item -->
-            <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+            <div class="inline-flex items-center justify-center gap-3">
+              <CheckIcon />
+
               <p class="text-sm">Compartir fotos en redes sociales.</p>
             </div>
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Geolocalización de las especies mas comunes.
               </p>
@@ -123,16 +76,16 @@
         <!-- Action Button -->
         <button
           type="button"
-          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white px-6 text-white hover:bg-blue-950 h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
+          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white px-6 text-white hover:bg-green-700 h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
         >
-          <span>Buy Now</span>
+          <span>Registrate ahora</span>
         </button>
       </div>
     </div>
 
     <!-- Professional Pricing Card -->
     <div
-      class="flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 p-6 md:min-h-[520px] md:gap-12 bg-green-700 text-white"
+      class="flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 p-6 md:min-h-[520px] md:gap-12 bg-green-700 text-white card"
     >
       <div class="inline-flex flex-col items-start justify-start gap-6">
         <div class="flex flex-col items-start justify-start gap-4">
@@ -148,23 +101,8 @@
           <div class="flex flex-col items-start justify-start gap-4">
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Glosario técnico con infromación detallada de todas las
                 especies.
@@ -172,23 +110,8 @@
             </div>
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Acceso a la totalidad de las fotos e información de las 12 mil
                 especies.
@@ -196,23 +119,8 @@
             </div>
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Filtros de busqueda por temporada, tipo de vegatción, especie,
                 lugar, etc.
@@ -220,69 +128,24 @@
             </div>
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Creación de colecciones o lista de animales.
               </p>
             </div>
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Interacción entre usuario: Puntuación de fotos y aportes .
               </p>
             </div>
             <!-- Feature Item -->
             <div class="inline-flex items-center justify-start gap-3">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 20 20"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                stroke="#1D4ED8"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                class="stroke-blue-600"
-              >
-                <path
-                  d="M7.40274 9.33332L9.73734 11.6667L17.5 3.75M16.9975 8.2176C17.4019 9.90307 17.2206 11.6793 16.4848 13.2438C15.7489 14.8083 14.5039 16.0641 12.9619 16.7974C11.4199 17.5306 9.67622 17.696 8.02809 17.2651C6.37996 16.8343 4.9293 15.834 3.92329 14.4346C2.91727 13.0352 2.41815 11.3235 2.51095 9.59091C2.60376 7.85832 3.28276 6.21216 4.43225 4.9329C5.58175 3.65365 7.13063 2.82044 8.81497 2.57527C10.4993 2.33008 12.2149 2.6881 13.6694 3.5883"
-                >
-                </path>
-              </svg>
+              <CheckIcon />
+
               <p class="text-sm">
                 Acceso a la IA para la identificación de especies.
               </p>
@@ -299,11 +162,22 @@
         <!-- Action Button -->
         <button
           type="button"
-          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white px-6 text-white hover:bg-blue-950 h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
+          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-white/95 stroke-white px-6 text-green-600 hover:bg-white h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
         >
-          <span>Buy Now</span>
+          <span>Obtener Premium</span>
         </button>
       </div>
     </div>
   </div>
 </section>
+
+<style>
+  .card {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+</style>

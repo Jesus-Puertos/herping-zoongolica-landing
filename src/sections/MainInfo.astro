@@ -1,27 +1,30 @@
+---
+import { Image } from "astro:assets";
+import MockupPhone from "../assets/MockupPhones.png";
+---
+
 <section
   class="m-auto flex w-full max-w-screen-2xl flex-col gap-6 px-3 py-12 text-center md:px-16 md:py-14 md:text-start lg:flex-row lg:gap-12 2xl:gap-32 2xl:px-28 2xl:py-20"
 >
   <div
-    class="flex w-full min-w-full max-w-lg flex-1 items-center justify-center rounded-2xl bg-slate-50 py-32 lg:min-w-[370px]"
+    class="flex w-full min-w-full max-w-xl flex-1 items-center justify-center rounded-2xl lg:min-w-[370px]"
   >
-    <img
-      src="https://www.tailframes.com/images/illustration.webp"
-      alt=""
-      width="183"
-      height="345"
-      sizes="100vw"
-      class="h-[172px] w-[91px] md:h-[345px] md:w-[183px]"
+    <Image
+      class="size-[500px] object-cover"
+      src={MockupPhone}
+      alt="Capturas de la aplicación Herping Zoongolica en un teléfono móvil."
     />
   </div>
   <div class="flex flex-col gap-6 lg:gap-12">
     <div class="flex max-w-lg flex-col gap-4">
       <h3 class="text-4xl font-semibold tracking-tight">
-        Here is your new
-        <br />wireframe kit, welcome!
+        ¿Qué es Herping Zoongolica?
+        <br />El glosario de anfibios y reptiles mas completo.!
       </h3>
       <h4 class="text-lg font-normal tracking-tight text-slate-500">
-        We've done it carefully and simply.
-        <br />Combined with the ingredients makes for beautiful landings.
+        Estamos felices de compartirles noticias de este maravilloso proyecto.
+        <br />Pensado para los entusiastas de la fauna de la Zona de las altas
+        montañas de Veracruz.
       </h4>
     </div>
     <div
