@@ -1,6 +1,6 @@
 # CONTRIBUTING.md
 
-## Bienvenido a 'CAMPTII V5.0 Landin Page' 🌌
+## Bienvenido a 'Hearping Zongolica' 🌌
 
 ¡Estamos encantados de que estés interesado en contribuir a nuestro proyecto de comunidad estudiantil! Este documento te guiará a través de los pasos necesarios para aportar tu valioso trabajo a 'CAMPTII V5.0 Landin Page', un proyecto desarrollado con Astro. Queremos hacer de este proceso algo sencillo y transparente, así que aquí tienes una guía paso a paso.
 
@@ -32,7 +32,7 @@
 
 - **Commit de tus cambios**: Una vez estés satisfecho con tus cambios, haz commit de ellos con un mensaje claro y descriptivo.
 - **Push a tu fork**: Haz push de tu rama con los cambios a tu fork en GitHub utilizando `git push origin nombre-de-tu-rama`.
-- **Crea un Pull Request (PR)**: En GitHub, ve a tu fork de 'CAMPTII V5.0' y haz clic en "Pull request" para iniciar uno. Asegúrate de describir claramente qué cambios has realizado y por qué son necesarios o útiles para el proyecto.
+- **Crea un Pull Request (PR)**: En GitHub, ve a tu fork de 'Hearping Zongolica' y haz clic en "Pull request" para iniciar uno. Asegúrate de describir claramente qué cambios has realizado y por qué son necesarios o útiles para el proyecto.
 
 ### Buenas prácticas 🌟
 
@@ -46,4 +46,4 @@
 
 Si tienes alguna pregunta o necesitas ayuda, no dudes en abrir un "issue" en el repositorio.
 
-¡Gracias por contribuir a 'CAMPTII V5.0'! Juntos estamos construyendo algo increíble. 🚀
+¡Gracias por contribuir a 'Hearping Zongolica'! Juntos estamos construyendo algo increíble. 🚀
