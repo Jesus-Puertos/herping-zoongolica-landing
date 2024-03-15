@@ -8,7 +8,7 @@
 [![Issues][issues-shield]][issues-url]
 
 <a href="https://github.com/Jesus-Puertos/herping-zoongolica-landing">
-  <img src="./public/favicon.svg" alt="Logo" width="800" />
+  <img src="./public/favicon.svg" alt="Logo" width="400" />
 </a>
 
 ## Landing Page del Herping Zongolica:
@@ -76,9 +76,11 @@ Herping Zoongolica es una aplicación web diseñada para proporcionar una guía 
 
 ## Contribuir al proyecto
 
-Las contribuciones son lo que hacen que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. ¡Cualquier contribución que hagas es **muy apreciada**! para poder llevar a este proyecto a otro nivel.
+Este repositorio está destinado únicamente para el equipo de desarrollo, y en este momento no estamos aceptando contribuciones externas. Dado que el proyecto está siendo desarrollado como parte de un _proyecto académico y en colaboración con la Finca Santa Marta Eco Suits_, hemos optado por mantener el control sobre las contribuciones para garantizar la coherencia y la calidad del código.
 
-Si tienes alguna sugerencia que podría mejorar el proyecto, por favor haz un [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) del repositorio y crea una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls). También puedes simplemente abrir un [_issue_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/issues) con la etiqueta "enhancement".
+Agradecemos tu interés en el proyecto y valoramos tu apoyo. Si tienes alguna pregunta o sugerencia sobre el proyecto, no dudes en ponerte en contacto con nosotros.
+
+Sin embargo si tienes alguna sugerencia que podría mejorar el proyecto, por favor haz un [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) del repositorio y crea una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls). También puedes simplemente abrir un [_issue_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/issues) con la etiqueta "enhancement".
 
 Aquí tienes una guía rápida:
 
