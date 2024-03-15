@@ -31,9 +31,13 @@ Herping Zoongolica es una aplicación web diseñada para proporcionar una guía 
 
 ## Características principales
 
-- **Detalles del evento**: Obtén información detallada sobre la fecha, hora, ubicación del evento.
-- **Agregar evento al calendario**: Permite a los usuarios agregar el evento a sus calendarios.
-- **Redes sociales**: Conoce las redes oficiales donde podrás informarte sobre el evento.
+- **Identificación de especies**: Proporciona una guía completa de identificación de especies de anfibios y reptiles de México.
+- **Subida y compartición de fotos**: Permite a los usuarios subir fotos de animales que encuentren en la naturaleza y compartirlas en la aplicación y en redes sociales.
+- **Geolocalización de especies**: Utiliza un mapa interactivo para mostrar la ubicación geográfica de las especies más comunes de anfibios y reptiles.
+- **Filtros de búsqueda avanzados**: Permite a los usuarios realizar búsquedas avanzadas utilizando filtros como temporada, tipo de vegetación, especie, ubicación, etc.
+- **Creación de colecciones y listas**: Permite a los usuarios crear colecciones personalizadas y listas de observación para agrupar especies según sus intereses o proyectos.
+- **Interacción entre usuarios**: Permite a los usuarios interactuar entre ellos puntuando las fotos de otras personas, dejando comentarios y compartiendo conocimientos sobre las especies.
+- **Integración de IA para identificación de especies**: Utiliza una inteligencia artificial para proporcionar asistencia en la identificación de especies a través del análisis de fotos de animales.
 
 ### Capturas de pantalla de la web de Hearping Zongolica:
 
@@ -80,7 +84,7 @@ Este repositorio está destinado únicamente para el equipo de desarrollo, y en 
 
 Agradecemos tu interés en el proyecto y valoramos tu apoyo. Si tienes alguna pregunta o sugerencia sobre el proyecto, no dudes en ponerte en contacto con nosotros.
 
-Sin embargo si tienes alguna sugerencia que podría mejorar el proyecto, por favor haz un [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) del repositorio y crea una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls). También puedes simplemente abrir un [_issue_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/issues) con la etiqueta "enhancement".
+Sin embargo si eres parte del equipo de desarrollo, por favor haz un [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) del repositorio y crea una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls). También puedes simplemente abrir un [_issue_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/issues) con la etiqueta "enhancement".
 
 Aquí tienes una guía rápida:
 
@@ -93,11 +97,11 @@ Aquí tienes una guía rápida:
 7. Haz Push a la Rama (`git push origin feature/CaracteristicaIncreible`)
 8. Abre una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls)
 
-Por favor, consulta nuestra [guía de contribución](https://github.com/Jesus-Puertos/herping-zoongolica-landing/blob/master/CONTRIBUTING.md) para saber cómo puedes empezar de la mejor manera y siguiendo [buenas prácticas](https://github.com/Jesus-Puertos/herping-zoongolica-landing/blob/main/CONTRIBUTING.md#buenas-prácticas-).
+Por favor, consulta la [guía de contribución](https://github.com/Jesus-Puertos/herping-zoongolica-landing/blob/master/CONTRIBUTING.md) para saber cómo puedes empezar de la mejor manera y siguiendo [buenas prácticas](https://github.com/Jesus-Puertos/herping-zoongolica-landing/blob/main/CONTRIBUTING.md#buenas-prácticas-).
 
 #
 
-**¡Gracias a todos los colaboradores!**
+**¡Gracias a todos los miebros del equipo que estan haciendo esto posible!**
 
 [![Contribuidores](https://contrib.rocks/image?repo=Jesus-Puertos/herping-zoongolica-landing)](https://github.com/Jesus-Puertos/herping-zoongolica-landing/graphs/contributors)
 
