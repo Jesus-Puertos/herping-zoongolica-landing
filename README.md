@@ -101,7 +101,7 @@ Por favor, consulta la [guía de contribución](https://github.com/Jesus-Puertos
 
 #
 
-**¡Gracias a todos los miebros del equipo que estan haciendo esto posible!**
+**¡Gracias a todos los miembros del equipo que estan haciendo esto posible!**
 
 [![Contribuidores](https://contrib.rocks/image?repo=Jesus-Puertos/herping-zoongolica-landing)](https://github.com/Jesus-Puertos/herping-zoongolica-landing/graphs/contributors)
 
