@@ -3,7 +3,8 @@ import CheckIcon from "@/icons/CheckIcon.astro";
 ---
 
 <section
-  class="m-auto flex w-full max-w-screen-2xl flex-col items-start justify-center gap-12 px-6 py-12 md:px-16 2xl:flex-row 2xl:py-16"
+  id="planes"
+  class="m-auto scroll-m-20 flex w-full max-w-screen-2xl flex-col items-start justify-center gap-12 px-6 py-12 md:px-16 2xl:flex-row 2xl:py-16"
 >
   <div
     class="flex flex-col ml-4 md:ml-0 gap-3 text-center md:max-w-xs md:text-left"
@@ -24,7 +25,7 @@ import CheckIcon from "@/icons/CheckIcon.astro";
   <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
     <!-- Basic Pricing Card -->
     <div
-      class="card flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 p-6 md:min-h-[520px] md:gap-12 bg-white"
+      class="card flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 p-6 md:min-h-[520px] md:gap-12 bg-white dark:bg-slate-900"
     >
       <div class="inline-flex flex-col items-start justify-start gap-6">
         <div class="flex flex-col items-start justify-start gap-4">
@@ -78,7 +79,7 @@ import CheckIcon from "@/icons/CheckIcon.astro";
         <!-- Action Button -->
         <button
           type="button"
-          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white px-6 text-white hover:bg-green-700 h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
+          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 dark:bg-blue-700 stroke-white px-6 text-white hover:bg-green-700 dark:hover:bg-blue-800 h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
         >
           <span>Registrate ahora</span>
         </button>
@@ -87,7 +88,7 @@ import CheckIcon from "@/icons/CheckIcon.astro";
 
     <!-- Professional Pricing Card -->
     <div
-      class="flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 p-6 md:min-h-[520px] md:gap-12 bg-green-700 text-white card"
+      class="flex max-w-sm flex-1 flex-col items-start justify-between gap-16 overflow-hidden rounded-2xl border border-slate-200 dark:border-slate-800 p-6 md:min-h-[520px] md:gap-12 bg-green-700 dark:bg-blue-700 text-white card"
     >
       <div class="inline-flex flex-col items-start justify-start gap-6">
         <div class="flex flex-col items-start justify-start gap-4">
@@ -164,7 +165,7 @@ import CheckIcon from "@/icons/CheckIcon.astro";
         <!-- Action Button -->
         <button
           type="button"
-          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-white/95 stroke-white px-6 text-green-600 hover:bg-white h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
+          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-white/95 stroke-white px-6 text-green-600 dark:text-blue-600 hover:bg-white h-[42px] min-w-[42px] gap-2 w-full disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100"
         >
           <span>Obtener Premium</span>
         </button>
