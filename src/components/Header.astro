@@ -119,17 +119,24 @@ const navItems = [
 </header>
 
 <script>
+  declare global {
+    interface Window {
+      closeMenu: () => void;
+    }
+  }
   document.addEventListener("DOMContentLoaded", (event) => {
     const menuButton = document.getElementById("menu-button");
     const menuOverlay = document.getElementById("menu-overlay");
 
-    menuButton.addEventListener("click", () => {
-      menuOverlay.classList.toggle("hidden");
-    });
+    if (menuButton && menuOverlay) {
+      menuButton.addEventListener("click", () => {
+        menuOverlay.classList.toggle("hidden");
+      });
 
-    window.closeMenu = () => {
-      menuOverlay.classList.add("hidden");
-    };
+      window.closeMenu = () => {
+        menuOverlay.classList.add("hidden");
+      };
+    }
   });
 </script>
 <style>
