@@ -83,19 +83,25 @@ Herping Zoongolica es una aplicación web diseñada para proporcionar una guía 
 Este repositorio está destinado únicamente para el equipo de desarrollo, y en este momento no estamos aceptando contribuciones externas. Dado que el proyecto está siendo desarrollado como parte de un _proyecto académico y en colaboración con la Finca Santa Marta Eco Suits_, hemos optado por mantener el control sobre las contribuciones para garantizar la coherencia y la calidad del código.
 
 Agradecemos tu interés en el proyecto y valoramos tu apoyo. Si tienes alguna pregunta o sugerencia sobre el proyecto, no dudes en ponerte en contacto con nosotros.
+También puedes simplemente abrir un [_issue_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/issues) con la etiqueta "enhancement".
 
-Sin embargo si eres parte del equipo de desarrollo, por favor haz un [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) del repositorio y crea una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls). También puedes simplemente abrir un [_issue_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/issues) con la etiqueta "enhancement".
+Sin embargo si eres parte del equipo de desarrollo, por favor sigue los siguientes pasos.
 
 Aquí tienes una guía rápida:
 
-1. Haz un [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) del Proyecto
-2. Clona tu [_fork_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/fork) (`git clone <URL del fork>`)
-3. Añade el repositorio original como remoto (`git remote add upstream <URL del repositorio original>`)
-4. Crea tu Rama de Funcionalidad (`git checkout -b feature/CaracteristicaIncreible`)
-5. Añade tus cambios (`git add .`)
-6. Realiza tus Cambios (`git commit -m 'Add: alguna CaracterísticaIncreible'`)
-7. Haz Push a la Rama (`git push origin feature/CaracteristicaIncreible`)
-8. Abre una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls)
+1. Clona el repositorio original: git clone [_clone_](https://github.com/Jesus-Puertos/herping-zoongolica-landing.git)
+2. Crea tu Rama de Funcionalidad (`git checkout -b feature/CaracteristicaIncreible`)
+3. Añade tus cambios (`git add .`)
+4. Realiza un commit de tus Cambios (`git commit -m 'Add: alguna CaracterísticaIncreible'`)
+5. Haz Push a la Rama del repositorio original (`git push origin feature/CaracteristicaIncreible`)
+6. Abre una [_pull request_](https://github.com/Jesus-Puertos/herping-zoongolica-landing/pulls)
+
+Si en algún momento necesita actualizar su rama local con los cambios en la rama main del repositorio original, puede hacerlo con los siguientes comandos:
+
+1. Cambia a la rama main: git checkout main
+2. Actualiza la rama main: git pull origin main
+3. Cambia de nuevo a tu rama de trabajo: git checkout feature/CaracteristicaIncreible
+4. Integra los cambios de la rama main en tu rama de trabajo: git merge main
 
 Por favor, consulta la [guía de contribución](https://github.com/Jesus-Puertos/herping-zoongolica-landing/blob/master/CONTRIBUTING.md) para saber cómo puedes empezar de la mejor manera y siguiendo [buenas prácticas](https://github.com/Jesus-Puertos/herping-zoongolica-landing/blob/main/CONTRIBUTING.md#buenas-prácticas-).
 

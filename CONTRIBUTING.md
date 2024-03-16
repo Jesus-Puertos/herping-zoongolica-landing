@@ -14,11 +14,7 @@
 
 #### 1. Configura tu entorno
 
-- **Fork el repositorio**: Haz un "fork" del proyecto a tu cuenta de GitHub para tener tu propia copia. Para hacer esto, haz clic en el botón "Fork" en la parte superior derecha de la página del repositorio en GitHub. Esto creará una copia del repositorio en tu cuenta de GitHub.
-
-- **Clona tu fork**: Después de hacer un fork, clona el repositorio a tu máquina local. Para hacerlo, copia la URL de tu fork haciendo clic en el botón verde "Code" y luego ejecuta `git clone <URL del fork>` en tu terminal.
-
-- **Añade el repositorio original como remoto**: Para mantener tu fork actualizado con los cambios del repositorio original, agrega el repositorio original como un remoto. Puedes hacerlo ejecutando `git remote add upstream <URL del repositorio original>`.
+- **Clona el repositorio**: Clona el repositorio original a tu máquina local. Para hacerlo, copia la URL del repositorio haciendo clic en el botón verde "Code" y luego ejecuta `git clone <URL del repositorio original>` en tu terminal.
 
 - **Instala las dependencias**: Navega hasta el directorio del proyecto clonado y ejecuta `npm install` para instalar todas las dependencias necesarias.
 
@@ -30,9 +26,10 @@
 
 #### 3. Envía tus cambios
 
-- **Commit de tus cambios**: Una vez estés satisfecho con tus cambios, haz commit de ellos con un mensaje claro y descriptivo.
-- **Push a tu fork**: Haz push de tu rama con los cambios a tu fork en GitHub utilizando `git push origin nombre-de-tu-rama`.
-- **Crea un Pull Request (PR)**: En GitHub, ve a tu fork de 'Hearping Zongolica' y haz clic en "Pull request" para iniciar uno. Asegúrate de describir claramente qué cambios has realizado y por qué son necesarios o útiles para el proyecto.
+- **Añade tus cambios en tu rama local**: Una vez estés satisfecho con tus cambios, agregalos con `git add .`.
+- **Commit de tus cambios**: Haz commit de tus cambios con un mensaje claro y descriptivo utilizando `git commit -m 'Tu mensaje descriptivo'`.
+- **Push a la rama**: Haz push de tu rama con los cambios al repositorio original utilizando `git push origin nombre-de-tu-rama`.
+- **Crea un Pull Request (PR)**: En GitHub, ve al repositorio original de 'Hearping Zongolica' y haz clic en "Pull request" para iniciar uno. Asegúrate de describir claramente qué cambios has realizado y por qué son necesarios o útiles para el proyecto.
 
 ### Buenas prácticas 🌟
 
