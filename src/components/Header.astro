@@ -49,7 +49,7 @@ const navItems = [
   <!-- Mobile Menu -->
   <div
     id="menu-overlay"
-    class="fixed inset-0 bg-black bg-opacity-50 flex lg:hidden items-center justify-center"
+    class="fixed inset-0 bg-black bg-opacity-50 hidden lg:hidden items-center justify-center"
     onclick="closeMenu()"
   >
     <div
@@ -124,6 +124,7 @@ const navItems = [
       closeMenu: () => void;
     }
   }
+
   document.addEventListener("DOMContentLoaded", (event) => {
     const menuButton = document.getElementById("menu-button");
     const menuOverlay = document.getElementById("menu-overlay");
@@ -131,10 +132,12 @@ const navItems = [
     if (menuButton && menuOverlay) {
       menuButton.addEventListener("click", () => {
         menuOverlay.classList.toggle("hidden");
+        menuOverlay.classList.toggle("flex");
       });
 
       window.closeMenu = () => {
         menuOverlay.classList.add("hidden");
+        menuOverlay.classList.remove("flex");
       };
     }
   });
