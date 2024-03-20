@@ -20,10 +20,14 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
         class="text-4xl font-extrabold leading-10 text-black dark:text-white sm:text-5xl md:text-6xl xl:text-7xl text-balance"
       >
         <span class="block">Herping Zoongolica</span>
-        <span class="relative inline-block text-black dark:text-white">Muy pronto...</span>
+        <span class="relative inline-block text-black dark:text-white"
+          >Muy pronto...</span
+        >
       </h1>
 
-      <p class="text-xl font-normal leading-7 text-slate-500 text-pretty">
+      <p
+        class="text-xl font-normal leading-7 text-slate-500 dark:text-slate-300 text-pretty"
+      >
         Nos complace anunciar un nuevo proyecto de Finca Santa Marta Ecosuits.
         Estamos profundamente comprometidos con la preservación de la
         biodiversidad de anfibios y reptiles en la Sierra de Zongolica.
@@ -45,7 +49,7 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
                 fill="none"
                 stroke="#1D4ED8"
                 xmlns="http://www.w3.org/2000/svg"
-                class="stroke-green-700"
+                class="stroke-green-700 dark:stroke-blue-600"
               >
                 <g clip-path="url(#clip0_4036_225)">
                   <path
@@ -76,7 +80,7 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
         </div>
         <button
           type="submit"
-          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 stroke-white px-6 text-white hover:bg-green-700 h-[42px] min-w-[42px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100 trasition hover:scale-105"
+          class="group inline-flex items-center justify-center whitespace-nowrap rounded-lg py-2 align-middle text-sm font-semibold leading-none transition-all duration-300 ease-in-out disabled:cursor-not-allowed bg-green-600 dark:bg-blue-600 stroke-white px-6 text-white hover:bg-green-700 h-[42px] min-w-[42px] gap-2 disabled:bg-slate-100 disabled:stroke-slate-400 disabled:text-slate-400 disabled:hover:bg-slate-100 trasition hover:scale-105"
         >
           <span>Suscribirse</span>
         </button>
@@ -89,22 +93,21 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
           altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
         />
         <ProfilePicturesNav
-        imagePath="/src/assets/marilu-pozos.jpeg"
-        altText="Jesus Puertos - Desarrollador backend Foto de perfil"
-      />
+          imagePath="/src/assets/marilu-pozos.jpeg"
+          altText="Marilu Pozos - Desarrollador backend Foto de perfil"
+        />
         <ProfilePicturesNav
-        imagePath="/src/assets/rene-zepahua.jpeg"
-        altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
-      />
-      <ProfilePicturesNav
-      imagePath="/src/assets/nahum-lemus.jpeg"
-      altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
-    />
-  <ProfilePicturesNav
-  imagePath="/src/assets/jesus-puertos.jpeg"
-  altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
-/>
-       
+          imagePath="/src/assets/rene-zepahua.jpeg"
+          altText="Rene Zepahua - Desarrollador Backend Foto de perfil"
+        />
+        <ProfilePicturesNav
+          imagePath="/src/assets/nahum-lemus.jpeg"
+          altText="Nahum Lemus - Desarrollador Backend y Documentador Foto de perfil"
+        />
+        <ProfilePicturesNav
+          imagePath="/src/assets/jesus-puertos.jpeg"
+          altText="Kevin - Desarrollador Foto de perfil"
+        />
       </div>
       <div
         class="bg-slate-300 max-h-screen min-h-full border-l m-auto w-8 md:mx-4 md:my-1 md:w-[unset]"
@@ -115,9 +118,11 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
           <div class="flex items-center justify-center gap-0.5">
             <div class="relative"></div>
           </div>
-          <p class="text-base font-semibold">Equipo de Herping Zongolica</p>
+          <p class="text-slate-950 dark:text-slate-300 text-base font-semibold">
+            Equipo de Herping Zongolica
+          </p>
         </div>
-        <p class="text-sm text-slate-500">
+        <p class="text-sm text-slate-500 dark:text-slate-300">
           del Instituto Tecnológico Superior de Zongolica
         </p>
       </div>
