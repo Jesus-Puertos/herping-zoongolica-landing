@@ -20,7 +20,7 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
         class="text-4xl font-extrabold leading-10 text-black dark:text-white sm:text-5xl md:text-6xl xl:text-7xl text-balance"
       >
         <span class="block">Herping Zoongolica</span>
-        <span class="relative inline-block text-black">Muy pronto...</span>
+        <span class="relative inline-block text-black dark:text-white">Muy pronto...</span>
       </h1>
 
       <p class="text-xl font-normal leading-7 text-slate-500 text-pretty">
@@ -88,24 +88,23 @@ import ProfilePicturesNav from "@/components/ProfilePicturesNav.astro";
           imagePath="/src/assets/jesus-puertos.jpeg"
           altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
         />
-        <div
-          class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 border-white shadow-md border-[3px] bg-white z-10"
-        >
-          <img
-            src="/img/devs/marilu-pozos.webp"
-            alt="Marilu Pozos - Desarrolladora Backend Foto de Perfil"
-            class="aspect-square"
-          />
-        </div>
-        <div
-          class="relative box-content flex items-center justify-center overflow-hidden rounded-full size-10 border-white shadow-md border-[3px] bg-white z-10"
-        >
-          <img
-            src="https://www.tailframes.com/images/avatar.webp"
-            alt=""
-            class="aspect-square"
-          />
-        </div>
+        <ProfilePicturesNav
+        imagePath="/src/assets/marilu-pozos.jpeg"
+        altText="Jesus Puertos - Desarrollador backend Foto de perfil"
+      />
+        <ProfilePicturesNav
+        imagePath="/src/assets/rene-zepahua.jpeg"
+        altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
+      />
+      <ProfilePicturesNav
+      imagePath="/src/assets/nahum-lemus.jpeg"
+      altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
+    />
+  <ProfilePicturesNav
+  imagePath="/src/assets/jesus-puertos.jpeg"
+  altText="Jesus Puertos - Desarrollador Fullstack Foto de perfil"
+/>
+       
       </div>
       <div
         class="bg-slate-300 max-h-screen min-h-full border-l m-auto w-8 md:mx-4 md:my-1 md:w-[unset]"
